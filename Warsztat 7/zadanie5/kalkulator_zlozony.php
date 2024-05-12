@@ -25,6 +25,7 @@
                 break;
             default:
                 $result = "Nieprawidlowa operacja!";
+                break;
         }
         echo "Wynik: " . $result;
     }
